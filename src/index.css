@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Alatsi;
+  src: url('./Alatsi-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul{margin:10px; height:200px; width:100%;}
+ul{overflow:hidden; overflow-y:hidden; overflow-x: hidden;}
+
+.myDiv {
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  background:rgb(49, 0, 71);
+  padding-bottom:15px;
+}
+.addDiv{
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  padding-top: 20px;
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: rgb(49, 0, 71);
+  border-width: 10px;
+}
+
+.tableDiv{
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  padding-top: 0px;
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: rgb(49, 0, 71);
+  border-width: 10px;
+}
+
+h1 { 
+  font-family: Alatsi;
+  src: url(Alatsi-Regular.ttf) format('truetype');
+  font-size: 60px !important;
+  text-align: center;
+  font-weight: 700;
+  background: whitesmoke;
+  /* -webkit-linear-gradient(rgb(0, 0, 0),rgb(117, 117, 117) 15% ,rgb(1, 1, 1) 85%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+} */
+
